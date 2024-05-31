@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OtterLibrary</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="place_hold">Place Hold</string>
+    <string name="select_genre">Select Genre</string>
+    <string name="select_book">Select Book</string>
+    <string name="select_book_prompt">Select Book From This Genre </string>
+
+</resources>

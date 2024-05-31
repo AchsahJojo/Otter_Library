@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book's Title"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/bubblysoda"
+        android:textColorHint="#494444"
+        android:background="#ADFBF7F7"/>
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Author"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColorHint="#494444"
+        android:fontFamily="@font/bubblysoda"
+        android:background="#ADFBF7F7"/>
+    <EditText
+        android:id="@+id/genre_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Genre"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/bubblysoda"
+        android:textColorHint="#494444"
+        android:background="#ADFBF7F7"/>
+
+    <Button
+        android:id="@+id/add_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#F8F0F0"
+        android:fontFamily="@font/bubblysoda"
+        android:layout_margin="20dp"
+        android:text="Add Book"/>
+</LinearLayout>

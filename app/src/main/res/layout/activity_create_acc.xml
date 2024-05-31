@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblysoda"
+        android:paddingBottom="16dp"
+        android:text="Please Enter Username and Password" />
+
+    <EditText
+        android:id="@+id/enter_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:gravity="center"
+        android:fontFamily="@font/bubblysoda"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/enter_passward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblysoda"
+        android:paddingBottom="16dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/bubblysoda"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/back_to_main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bubblysoda"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Back to Main Menu" />
+
+</LinearLayout>

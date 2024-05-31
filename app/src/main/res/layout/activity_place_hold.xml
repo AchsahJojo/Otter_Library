@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bubblysoda"
+        android:padding="15dp"
+        android:text="Choose Genre "/>
+
+
+    <Button
+        android:id="@+id/compsci_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#F8F0F0"
+        android:fontFamily="@font/bubblysoda"
+        android:text="  Computer Science "/>
+
+    <Button
+        android:id="@+id/selfhelp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bubblysoda"
+        android:textColor="@color/white"
+        android:background="#F8F0F0"
+        android:text="  Self-Help "/>
+
+    <Button
+        android:id="@+id/fantasy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/bubblysoda"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#F8F0F0"
+        android:text="   Historical Fantasy "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit_button"
+        android:textStyle="bold"
+        android:fontFamily="@font/bubblysoda"
+        android:textColor="@color/white"
+        android:text="Exit"
+        android:background="#F8F0F0"/>
+
+</LinearLayout>
